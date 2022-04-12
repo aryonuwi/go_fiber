@@ -1,8 +1,7 @@
 package main
 
 import (
-	"go_fiber/route"
-
+	"github.com/aryonuwi/go_fiber.git/route"
 	"github.com/gofiber/fiber/v2"
 )
 
