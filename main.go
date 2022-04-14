@@ -1,14 +1,14 @@
 package main
 
 import (
-	"github.com/aryonuwi/go_fiber.git/conf"
+	"github.com/aryonuwi/go_fiber.git/conf/database"
 	"github.com/aryonuwi/go_fiber.git/route"
 	"github.com/gofiber/fiber/v2"
 )
 
 func main() {
 
-	conf.DatabaseInit()
+	database.DatabaseInit()
 	App := fiber.New()
 
 	// Route Initial

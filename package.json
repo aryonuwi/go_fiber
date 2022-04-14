@@ -1,0 +1,23 @@
+{
+  "name": "go_fiber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.go",
+  "scripts": {
+    "go": "nodemon --exec go run main.go"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/aryonuwi/go_fiber.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aryonuwi/go_fiber/issues"
+  },
+  "homepage": "https://github.com/aryonuwi/go_fiber#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
